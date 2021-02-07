@@ -4,31 +4,45 @@
 # QuanCulator
 Quantum Calculation Project
 
+## Try it out
+
+You can try it out [here](https://www.hyperrixel.com/hackathon/quanculator/).
+
+## Video
+
+[![QuanCulator](https://github.com/hyperrixel/QuanCulator/blob/main/asset/13_quantum_with_question.png "QuanCulator")](https://youtu.be/sdlX7xclAiY)
+
+## Donation
+
+![Donation](https://github.com/hyperrixel/QuanCulator/blob/main/asset/14_donation.png "Donation")
+
 ## Inspiration
 
 Quantums are everywhere. There are books, articles, lectures about them. Teachers and politicians say, knowledge is power. People may be confused by a lot of technical terms. What is quantum? What does a quantum look like? Are quantums around us, or is it just love? How many quantums are there? 🤔
 
 ## What it does
 
-QuanCulator is a quantum calculator that calculates quantums all over the universe. However the part of the whole system we built this weekend calculates quantums on webpages only. 
+QuanCulator is a quantum calculator that calculates quantums all over the universe. However the part of the whole system we built this weekend calculates quantums on webpages only.
 
 We distinguish four types of quantums:
 
+![Together](https://github.com/hyperrixel/QuanCulator/blob/main/asset/12_together.png "Together")
+
 ### Explicit quantums
 
-Quantums that you can see in the text.
+![Explicit quantums](https://github.com/hyperrixel/QuanCulator/blob/main/asset/08_explicit.png "Explicit quantums")
 
 ### Hidden quantums
 
-Quantums that hide themselves in the HTML tags and other places.
+![Hidden quantums](https://github.com/hyperrixel/QuanCulator/blob/main/asset/09_hidden.png "Hidden quantums")
 
 ### Broken quantum
 
-Quantums that are broken into exactly two slices, like in the case of a **piquant umbrella**. ☂
+![Broken quantums](https://github.com/hyperrixel/QuanCulator/blob/main/asset/10_broken.png "Broken quantums")
 
 ### Quantum spills
 
-Quantums that are totally disintegrated into separated letters. The letters should be in the right order without repeating themselves.
+![Quantum spills](https://github.com/hyperrixel/QuanCulator/blob/main/asset/11_spills.png "Quantum spills")
 
 ## How we built it
 
@@ -78,13 +92,15 @@ And a last and very important message: Quantums ask for their freedom and they j
 
 ### Future plans
 
+![Future plans](https://github.com/hyperrixel/QuanCulator/blob/main/asset/07_future.png "Future plans")
+
 #### end of 2021 quantums go into the blockchain 🔗
 
 There is a blockchain called Quantum. However, the others do not contain quantums. We want to put quantums into those blockchains by locking those UTXOs.
 
 #### 2022 era of fluffy quantums 🐾
 
-We want to create plush quantums to spread the message and love around the world. A fluffy quantum can bring joy in everyone’s life. 
+We want to create plush quantums to spread the message and love around the world. A fluffy quantum can bring joy in everyone’s life.
 
 #### 2023 quantums go on quantum… computers 💻
 
@@ -96,7 +112,7 @@ Under the flag of the Artemis program, Nasa wants to send the first woman and th
 
 #### 2030 one planet is not enough 🪐
 
-We want to send our tiny (or giant) quantum to Mars. Matt Damon would be happier if he would have a fluffy plush quantum on the station like Wilson in the movie Cast Away. Maybe the hiding martians will be happy to meet the first quantum from Earth. 
+We want to send our tiny (or giant) quantum to Mars. Matt Damon would be happier if he would have a fluffy plush quantum on the station like Wilson in the movie Cast Away. Maybe the hiding martians will be happy to meet the first quantum from Earth.
 
 #### 2040 quantums are on the way… milky way 🛸
 
@@ -109,3 +125,29 @@ In 2050 we want to go into retirement and throw the responsibility of quantums t
 #### 2149 booking quantums into history books 📘
 
 We would be really happy if history books would have a unique chapter about this time and about our project. It is not necessary to get markers such as “golden age of quantums” or “the welfare society of quantums”. It is enough to get some short sentences under a picture about our plush fluffy quantum.
+
+## UML diagrams
+
+### Use case diagram
+
+![Use case](https://github.com/hyperrixel/QuanCulator/blob/main/asset/02_UML_UCD.png "Use case")
+
+### Sequence diagram
+
+![Sequence](https://github.com/hyperrixel/QuanCulator/blob/main/asset/03_UML_sequence.png "Sequence")
+
+### Class diagram
+
+![Class](https://github.com/hyperrixel/QuanCulator/blob/main/asset/04_UML_class.png "Class")
+
+### Classmethod diagram
+
+![Classmethod](https://github.com/hyperrixel/QuanCulator/blob/main/asset/05_UML_class_v2.png "Classmethod")
+
+## Business Model Canvas
+
+![Business Model Canvas](https://github.com/hyperrixel/QuanCulator/blob/main/asset/06_bmc.png "Business Model Canvas")
+
+## Quantums
+
+![Quantums](https://github.com/hyperrixel/QuanCulator/blob/main/asset/01_quantum_with_logo.png "Quantums")
