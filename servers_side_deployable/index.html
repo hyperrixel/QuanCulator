@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en-EN">
+<head>
+	<meta charset="UTF-8">
+	<title>QuanCulator</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta property="og:title" content="QuanCulator" />
+	<meta property="og:description" content="Service to count quantums" />
+	<meta property="og:image" content="https://www.hyperrixel.com/hackathon/quanculator/quantum_with_logo.png" />
+	<meta property="og:image:type" content="image/png" />
+	<meta property="og:image:width" content="1200" />
+	<meta property="og:image:height" content="630" />
+	<meta property="og:url" content="https://www.hyperrixel.com/hackathon/quanculator/" />
+	<meta name="twitter:title" content="QuanCulator" />
+	<meta name="twitter:description" content="Service to count quantums" />
+	<meta name="twitter:image" content="https://www.hyperrixel.com/hackathon/quanculator/quantum_with_logo.png" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<link rel="apple-touch-icon-precomposed" href="logo_180.png" />
+	<link rel="icon" href="logo_196.png" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+  <link rel="stylesheet" href="qc.css" />
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js" integrity="sha384-LtrjvnR4Twt/qOuYxE721u19sVFLVSA4hf/rRt6PrZTmiPltdZcI7q7PXQBYTKyf" crossorigin="anonymous"></script>
+  <script src="tools.js"></script>
+	<!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" integrity="sha512-UDJtJXfzfsiPPgnI5S1000FPLBHMhvzAMX15I+qG2E2OAzC9P1JzUwJOfnypXiOH7MRPaqzhPbBGDNNj7zBfoA==" crossorigin="anonymous"></script>
+	  <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js" integrity="sha512-qWVvreMuH9i0DrugcOtifxdtZVBBL0X75r9YweXsdCHtXUidlctw7NXg5KVP3ITPtqZ2S575A0wFkvgS2anqSA==" crossorigin="anonymous"></script>
+	<![endif]-->
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="row justify-content-center">
+      <div class="col-10 box-page-center search-box">
+        <div class="row justify-content-start">
+          <div class="col-12 logo-nest"><img class="img-responsive" src="logo.png" /img><span>QuanCulator</span></div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-12 d-flex justify-content-center search-input">
+						<i class="fas fa-search input-unfocused-icon" id="q-click"></i>
+						<input class="input-unfocused-input" id="q-url" name="q-url" placeholder="Give a URL please... Let's dig out those quantums!" type="url">
+					</div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-12 info-text" id="q-result"></div>
+        </div>
+				<div class="row justify-content-center">
+					<div class="col-12 give-coin">Do you consider quanculator impractical enough? You can drop some coin for us, we try to be as receptive as possible.</div>
+				</div>
+				<div class="row justify-content-center">
+					<div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+						<div class="row justify-content-center coin-nest">
+							<div class="col-12">Bitcoin (BTC)</div>
+							<div class="col-12"><img class="img-responsive" src="btc.png" /></div>
+							<div class="col-12 coin-copy" title="Click to copy the BTC address...">
+								<i class="far fa-copy"></i>
+								<div class="col-12 coin-addr">3556oZ73irLz1ZggUGpUTEyvAzigDjYqsn</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+						<div class="row justify-content-center coin-nest">
+							<div class="col-12">BitcoinCash (BCH)</div>
+							<div class="col-12"><img class="img-responsive" src="bch.png" /></div>
+							<div class="col-12 coin-copy" title="Click to copy the BCH address...">
+								<i class="far fa-copy"></i>
+								<div class="col-12 coin-addr">bitcoincash:qpwzv49m9sqcske72erarsjjk4xnw2w6suu25zmser</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+						<div class="row justify-content-center coin-nest">
+							<div class="col-12">Monero (XMR)</div>
+							<div class="col-12"><img class="img-responsive" src="xmr.png" /></div>
+							<div class="col-12 coin-copy" title="Click to copy the XMR address...">
+								<i class="far fa-copy"></i>
+								<div class="col-12 coin-addr">44Fi7GhNk83Nk4ZtJaCaAHTytzW3ukwHRT32wXvViXQMWcbwMVc2F5tWDmnyNafHD7hmNdG5fbzNghebueEprkooJbRkdLe</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+						<div class="row justify-content-center coin-nest">
+							<div class="col-12">Ethereum (ETH)</div>
+							<div class="col-12"><img class="img-responsive" src="eth.png" /></div>
+							<div class="col-12 coin-copy" title="Click to copy the ETH address...">
+								<i class="far fa-copy"></i>
+								<div class="col-12 coin-addr">0x313ed02a6bd837c4fa680CEcfe11Bca80A4d16f6</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+						<div class="row justify-content-center coin-nest">
+							<div class="col-12">Eth Classic (ETC)</div>
+							<div class="col-12"><img class="img-responsive" src="etc.png" /></div>
+							<div class="col-12 coin-copy" title="Click to copy the ETC address...">
+								<i class="far fa-copy"></i>
+								<div class="col-12 coin-addr">0xD698a1237f1d59F6E95d50146a87571CEE34d220</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+						<div class="row justify-content-center coin-nest">
+							<div class="col-12">Dash (DASH)</div>
+							<div class="col-12"><img class="img-responsive" src="dash.png" /></div>
+							<div class="col-12 coin-copy" title="Click to copy the DASH address...">
+								<i class="far fa-copy"></i>
+								<div class="col-12 coin-addr">XcizuSbkvkTLoYYAayVz66sFsRMQ1nWrSf</div>
+							</div>
+						</div>
+					</div>
+	        </div>
+					<div class="row justify-content-center">
+	          <div class="col-12 about-links">
+							<a href="https://devpost.com/software/quanculator" target="_blank">DEVPOST page</a>
+							<a href="https://github.com/hyperrixel/QuanCulator" target="_blank">GitHub page</a>
+							<a href="" target="_blank">YouTube video</a>
+						</div>
+				</div>
+      </div>
+    </div>
+  </div>
+  <script src="qc.js"></script>
+</body>
+</html>
