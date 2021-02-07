@@ -4,7 +4,6 @@ QuanCulator
 ===========
 service to enumerate quantums
 -----------------------------
-
         _                 _
        (_)               | |
  _ __   _  __  __   ___  | |
@@ -168,7 +167,7 @@ class QuantumObject(object):
         self.__hiddenquantums = self.countofhiddenquantums()
         self.__brokenquantums = self.countofbrokenquantums()
         self.__quantumspills = self.countofquantumspills()
-        self.__totalquantums = self.(countoftotalquantums()
+        self.__totalquantums = self.countoftotalquantums()
 
 
 
@@ -259,7 +258,7 @@ class QuantumObject(object):
 
         Parameters
         ----------
-        base : str, optional ('qunatum' if omitted)
+        base : str, optional ('quantum' if omitted)
             The word to build broken search patterns for.
 
         Retusns:
@@ -285,7 +284,7 @@ class QuantumObject(object):
     def getspillpattern(cls, base='quantum'):
         """
         Gets a regex pattern to find spills of quantums
-        ==============================================
+        ===============================================
 
         Parameters
         ----------
